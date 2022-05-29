@@ -1,37 +1,27 @@
+// Replace ___ with your code
+#include <stdio.h>
 
-# Swap Two Numbers
+int main() {
+    int x;
+    int y;
 
+    // get input values for x and y
+    scanf("%d", &x);
+    scanf("%d", &y);
 
-#### Easy
-## Problem Description
+    // create a temporary variable
+    int temp;
+    
 
-#### Create a program to swap two numbers using a temporary variable.
+    // swap values using temp
+    temp = x;;
+    x = y;
+    y = temp;
 
-The formula to calculate the volume of a cube is
+    // print values after swapping
 
+    printf("%d\n", x);
+    printf("%d", y);
 
-
-
-
-
-- Get integer inputs for variables x and y.
-- Use a temporary variable to swap the values of x and y.
-- Print the values of x and y respectively after swapping.
-
-#### Input format:
-An integer
-```bash
-  Input:
-  32
-  67
-```
-
-```bash
-  Output
-  67
-  32
-
-```
-
-
-
+    return 0;
+}
