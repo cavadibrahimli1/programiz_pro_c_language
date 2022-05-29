@@ -1,4 +1,4 @@
-# Problem Description
+# 1. Problem Description
 
 
 1. Create a program to print the variable.
@@ -11,4 +11,19 @@ To run tests, run the following command
 
 ```bash
   Output: 34 78.320000
+```
+
+# 2. Problem Description 
+
+1. Create a program to assign values to double and char variables.
+2. Create a double variable named number with value 86.99.
+3. Create a character variable named letter with value 'z'.
+4. Print both variables with two spaces between them.
+
+### Example:
+
+To run tests, run the following command
+
+```bash
+  Output: 86.990000  z
 ```
